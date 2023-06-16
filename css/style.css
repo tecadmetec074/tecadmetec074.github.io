@@ -32,7 +32,7 @@ body {
   }
   
   nav ul li a:hover {
-    color: #ff0000; /* Cor de destaque ao passar o mouse */
+    color: #0b11cb; /* Cor de destaque ao passar o mouse */
   }
   
   section {
@@ -53,3 +53,31 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  .vertical-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-body {
+  height: 300px; /* Defina a altura desejada para os cards */
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura */
+}
+
+.card-button {
+  height: 70px; /* Defina a altura desejada para os cards */
+  padding-right: 10px;
+  padding-top : 10px;
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura */
+}
+
+.card-icon {
+  width: 64px ;
+  height: 64px; /* Defina a altura desejada para os cards */
+  padding-right: 10px;
+  padding-top : 10px;
+  overflow: hidden; /* Oculta o conteúdo que ultrapassa a altura */
+}
